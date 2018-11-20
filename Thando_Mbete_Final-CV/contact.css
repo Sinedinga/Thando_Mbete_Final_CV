@@ -1,0 +1,47 @@
+/* =================  THIS IS WHERE THE NAVIGATIOIN SECTION START ================== */
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(63, 139, 226);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f3f3f7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgb(226, 214, 36);
+    color: rgb(211, 137, 68);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+ /* =================  THIS IS WHERE THE NAVIGATION SECTION ENDS ================== */
+
+ /* ========= THIS IS THE START OF THE BODY SECTION FOR THE "ABOUT PAGE" ======== */
+
+ .about-sec {
+    /* Add the blur effect */
+    filter: blur(20px);
+    -webkit-filter: blur(2px);
+  
+    /* Full height */
+    height: 50%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ /* ========= THIS IS THE END OF THE BODY SECTION FOR THE "ABOUT PAGE" ======== */
