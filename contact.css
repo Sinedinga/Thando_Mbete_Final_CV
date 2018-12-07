@@ -44,25 +44,27 @@ body{
   
   .image {
     display: block;
-    width: 60%;
-    height: 50%;
+    width: 120%;
+    height: 120%;
+    margin-right: 10%;
   }
   
   .overlay {
     position: absolute;
-    bottom: 100%;
+    bottom: 120%;
     left: 0;
     right: 0;
-    background-color: #008CBA;
+    background-color: #4F6D7A;
     overflow: hidden;
-    width: 60%;
+    width: 120%;
     height:0;
     transition: .5s ease;
+    margin-right: 10%;
   }
   
   .container:hover .overlay {
     bottom: 0;
-    height: 100%;
+    height: 120%;
   }
   
   .text {
@@ -74,6 +76,12 @@ body{
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .text_1{
+    color: #BBBDF6;
+    font-size: 20px;
     text-align: center;
   }
  
